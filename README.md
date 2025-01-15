@@ -1,4 +1,9 @@
-# Lab2_213003
-## Random Joke App
+# Lab3_213003
+## Joke App with Firebase Integration (Upgrade of Lab2)
 
-This Flutter app fetches and displays random jokes using the "https://official-joke-api.appspot.com/" API. The app features a main screen listing joke types as clickable cards, which lead to a screen displaying jokes of the selected type. Additionally, there is a "Random Joke of the Day" screen accessible via a button in the app bar. The project is organized into models, screens, widgets, and services, following a clean architecture.
+This Flutter application is an upgrade of the FlutterProjects/Lab2 project. It allows users to browse jokes and add their favorites to a list. The app fetches jokes from an external API and displays them in a list. Each joke card includes an icon to mark a joke as a favorite.
+
+#### Features:
+Favorite Jokes: Users can mark jokes as favorites by tapping the heart icon on the joke card.
+Firebase Integration: The project is connected to Firebase.
+Notifications: The app sends notifications using Firebase Cloud Messaging to remind users to check the joke of the day at a specific time.
